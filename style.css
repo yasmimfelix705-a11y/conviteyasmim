@@ -245,3 +245,261 @@ html, body {
     }
 
 }
+/* ==========================
+   PÁGINA LISTA DE PRESENTES
+========================== */
+
+
+.pagina-presentes {
+
+    width: 100%;
+    min-height: 100vh;
+
+    background:
+    linear-gradient(
+        180deg,
+        #d8ecff,
+        #9fc8ed,
+        #c9dcf5
+    );
+
+    overflow-y: auto;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px 15px;
+
+    position: relative;
+
+}
+
+
+
+/* brilho do céu */
+
+.pagina-presentes::before {
+
+    content: "";
+
+    position: fixed;
+
+    width: 250px;
+    height: 250px;
+
+    background:
+    radial-gradient(
+        circle,
+        rgba(255,255,255,0.8),
+        transparent 70%
+    );
+
+    top: 5%;
+    right: 10%;
+
+}
+
+
+
+/* CARTÃO */
+
+.lista {
+
+    width: 100%;
+    max-width: 500px;
+
+    background:
+    rgba(255,255,255,0.65);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.8);
+
+    border-radius: 30px;
+
+    padding: 35px 25px;
+
+    box-shadow:
+    0 10px 35px rgba(80,120,170,0.25);
+
+    text-align: center;
+
+}
+
+
+
+
+/* TÍTULO */
+
+.lista h1 {
+
+    color: #4d6f98;
+
+    font-size: 30px;
+
+    font-family: Georgia, serif;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* FRASES */
+
+.frase,
+.cartinha {
+
+    color: #526b89;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+
+/* CATEGORIAS */
+
+.categorias {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+}
+
+
+
+.item {
+
+    background:
+
+    rgba(255,255,255,0.75);
+
+    border: 1px solid #c8d7ea;
+
+    border-radius: 18px;
+
+    padding: 15px;
+
+    color: #46658c;
+
+    font-size: 16px;
+
+}
+
+
+
+
+/* PIX */
+
+.pix {
+
+    margin-top: 25px;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background:
+    linear-gradient(
+        135deg,
+        #eaf5ff,
+        #ffffff
+    );
+
+    border: 1px solid #c4d4e8;
+
+}
+
+
+
+.pix h2 {
+
+    color: #718fb5;
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.pix p {
+
+    color: #405d80;
+
+    font-size: 16px;
+
+    margin: 5px;
+
+}
+
+
+
+
+/* BOTÃO VOLTAR */
+
+.voltar {
+
+    display: inline-block;
+
+    margin-top: 25px;
+
+    padding: 12px 25px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    color: white;
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #9dbfe5,
+        #6f96c4
+    );
+
+}
+
+
+
+
+/* CELULAR */
+
+@media(max-width:600px){
+
+    .lista {
+
+        padding: 25px 18px;
+
+    }
+
+
+    .lista h1 {
+
+        font-size: 25px;
+
+    }
+
+
+    .item {
+
+        font-size: 14px;
+
+    }
+
+}

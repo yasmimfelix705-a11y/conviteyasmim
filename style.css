@@ -192,68 +192,33 @@ body {
     height: 65px;
 
 
-    border-radius: 50%;
-
-
-    border: none;
-
-
-    background: transparent;
-
-
-    cursor: pointer;
-
-
-    padding: 0;
+    border-radius: 
 
 
 }
 
 
 
-/* 🎁 LISTA DE PRESENTES */
+/* 🎁 PRESENTES */
 
+.circulo-presentes{
 
-.circulo-presentes {
+left:20.5%;
 
-
-    top: 82%;
-
-    left: 17%;
-
+top:71.9%;
 
 }
 
+/* 💌 CONFIRMAÇÃO */
 
+.circulo-confirmar{
 
+left:70.7%;
 
-
-/* 📍 LOCAL */
-
-
-.circulo-local {
-
-
-    top: 82%;
-
-    left: 44%;
-
+top:71.9%;
 
 }
 
-
-
-
-
-/* 💌 CONFIRMAR PRESENÇA */
-
-
-.circulo-confirmar {
-
-
-    top: 82%;
-
-    left: 71%;
 
 
 }
